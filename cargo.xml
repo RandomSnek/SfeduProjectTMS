@@ -1,0 +1,30 @@
+<XmlContainer>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="500" name="Aluminium" id="0">
+      <type>General</type>
+   </object>
+</XmlContainer><XmlContainer>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="500" name="Aluminium" id="1">
+      <type>General</type>
+   </object>
+</XmlContainer>
+<XmlContainer>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="500" name="Aluminium" id="1">
+      <type>General</type>
+   </object>
+</XmlContainer><XmlContainer>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="500" name="Aluminium" id="1">
+      <type>General</type>
+   </object>
+</XmlContainer><XmlContainer>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="500" name="Aluminium" id="1">
+      <type>General</type>
+   </object>
+</XmlContainer><XmlContainer>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="500" name="Aluminium" id="1">
+      <type>General</type>
+   </object>
+</XmlContainer><XmlContainer>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="500" name="Aluminium" id="1">
+      <type>General</type>
+   </object>
+</XmlContainer>

@@ -1,0 +1,9 @@
+ru\sfedu\classes\IDataProvider.class
+ru\sfedu\classes\Manager.class
+ru\sfedu\classes\Cargo.class
+ru\sfedu\classes\Destination.class
+ru\sfedu\transportmanagementsystem\TransportManagementSystemClient.class
+ru\sfedu\classes\Coordinates.class
+ru\sfedu\classes\Warehouse.class
+ru\sfedu\classes\Driver.class
+ru\sfedu\classes\Transport.class
