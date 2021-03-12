@@ -1,0 +1,362 @@
+2021-03-10 00:30:03 INFO  MainTest:71 - Testing connection...
+2021-03-10 00:53:15 INFO  MainTest:71 - Testing connection...
+2021-03-10 00:54:19 INFO  MainTest:71 - Testing connection...
+2021-03-10 01:00:52 INFO  MainTest:71 - Testing connection...
+2021-03-10 01:01:44 INFO  MainTest:71 - Testing connection...
+2021-03-10 20:30:27 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL """SELECT * FROM BORT WHERE ID=%d;""[*]"
+Syntax error in SQL statement """SELECT * FROM BORT WHERE ID=%d;""[*]"; SQL statement:
+"SELECT * FROM BORT WHERE ID=%d;" [42000-200]
+2021-03-10 20:30:27 ERROR JdbcDataProvider:71 - null
+2021-03-10 20:31:16 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL """SELECT * FROM BORT WHERE ID=%d;""[*]"
+Syntax error in SQL statement """SELECT * FROM BORT WHERE ID=%d;""[*]"; SQL statement:
+"SELECT * FROM BORT WHERE ID=%d;" [42000-200]
+2021-03-10 20:31:16 ERROR JdbcDataProvider:71 - null
+2021-03-10 20:33:24 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL """SELECT * FROM BORT WHERE ID=%d;""[*]"
+Syntax error in SQL statement """SELECT * FROM BORT WHERE ID=%d;""[*]"; SQL statement:
+"SELECT * FROM BORT WHERE ID=%d;" [42000-200]
+2021-03-10 20:33:24 ERROR JdbcDataProvider:71 - null
+2021-03-10 20:36:21 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL """SELECT * FROM BORT WHERE ID=%d;""[*]"
+Syntax error in SQL statement """SELECT * FROM BORT WHERE ID=%d;""[*]"; SQL statement:
+"SELECT * FROM BORT WHERE ID=%d;" [42000-200]
+2021-03-10 20:36:21 ERROR JdbcDataProvider:71 - null
+2021-03-10 20:44:14 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT * FROM BORT WHERE ID=%[*]D;"; ожидалось "ALL, ANY, SOME"
+Syntax error in SQL statement "SELECT * FROM BORT WHERE ID=%[*]D;"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM BORT WHERE ID=%d; [42001-200]
+2021-03-10 20:44:14 ERROR JdbcDataProvider:71 - null
+2021-03-10 20:49:56 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT * FROM BORT WHERE ID= %[*]D;"; ожидалось "ALL, ANY, SOME"
+Syntax error in SQL statement "SELECT * FROM BORT WHERE ID= %[*]D;"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM BORT WHERE ID= %d; [42001-200]
+2021-03-10 20:49:56 ERROR JdbcDataProvider:71 - null
+2021-03-10 20:53:40 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT * FROM BORT WHERE ID= %[*]D"; ожидалось "ALL, ANY, SOME"
+Syntax error in SQL statement "SELECT * FROM BORT WHERE ID= %[*]D"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM BORT WHERE ID= %d [42001-200]
+2021-03-10 20:53:40 ERROR JdbcDataProvider:71 - null
+2021-03-10 21:11:56 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT * FROM BORT WHERE ID= %[*]D"; ожидалось "ALL, ANY, SOME"
+Syntax error in SQL statement "SELECT * FROM BORT WHERE ID= %[*]D"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM BORT WHERE ID= %d [42001-200]
+2021-03-10 21:11:56 ERROR JdbcDataProvider:71 - null
+2021-03-10 21:12:50 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL """SELECT * FROM BORT WHERE ID= %d ""[*]"
+Syntax error in SQL statement """SELECT * FROM BORT WHERE ID= %d ""[*]"; SQL statement:
+"SELECT * FROM BORT WHERE ID= %d " [42000-200]
+2021-03-10 21:12:50 ERROR JdbcDataProvider:71 - null
+2021-03-10 21:13:13 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "SELECT * FROM BORT WHERE ID= %[*]D"; ожидалось "ALL, ANY, SOME"
+Syntax error in SQL statement "SELECT * FROM BORT WHERE ID= %[*]D"; expected "ALL, ANY, SOME"; SQL statement:
+SELECT * FROM BORT WHERE ID= %d [42001-200]
+2021-03-10 21:13:13 ERROR JdbcDataProvider:71 - null
+2021-03-10 21:40:58 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLDataException: Недопустимое значение "null" для параметра "SQL"
+Invalid value "null" for parameter "SQL" [90008-200]
+2021-03-10 21:40:58 ERROR JdbcDataProvider:71 - null
+2021-03-10 21:42:04 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-10 21:44:59 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-10 21:47:29 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-10 21:49:10 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-10 22:11:16 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Неверное количество столбцов
+Column count does not match; SQL statement:
+INSERT INTO BORT VALUES (1,testName ,20000,АБВГД123,100,40,000000,80,000000) [21002-200]
+2021-03-11 00:02:49 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:09:40 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:09:55 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:11:43 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:13:27 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:14:11 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:15:28 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:18:11 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:19:31 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:20:44 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:24:22 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:25:19 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:31:25 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:31:25 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "TESTNAME" не найден
+Column "TESTNAME" not found; SQL statement:
+INSERT INTO BORT VALUES (1,testName ,20000,АБВГД123,100,40,80) [42122-200]
+2021-03-11 00:37:25 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:37:25 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "TESTNAME" не найден
+Column "TESTNAME" not found; SQL statement:
+INSERT INTO BORT VALUES (1, testName,20000,АБВГД123,100,40,80) [42122-200]
+2021-03-11 00:38:46 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:38:46 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "TESTNAME" не найден
+Column "TESTNAME" not found; SQL statement:
+INSERT INTO PUBLIC.BORT VALUES (1, testName,20000,АБВГД123,100,40,80) [42122-200]
+2021-03-11 00:41:57 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:41:57 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "TESTNAME" не найден
+Column "TESTNAME" not found; SQL statement:
+INSERT INTO BORT VALUES (1, testName,20000,АБВГД123,100,40,80) [42122-200]
+2021-03-11 00:43:27 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:43:27 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "TESTNAME" не найден
+Column "TESTNAME" not found; SQL statement:
+INSERT INTO BORT VALUES(1, testName,20000,АБВГД123,100,40,80) [42122-200]
+2021-03-11 00:44:21 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:44:21 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "TESTNAME" не найден
+Column "TESTNAME" not found; SQL statement:
+INSERT INTO BORT(ID,NAME,MAXWEIGHT,PLATES,TOTALDISTANCE,KUZOVLENGTH,BORTLENGTH) VALUES(1, testName,20000,АБВГД123,100,40,80) [42122-200]
+2021-03-11 00:56:36 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 00:56:36 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Столбец "TESTNAME" не найден
+Column "TESTNAME" not found; SQL statement:
+INSERT INTO BORT(ID,NAME,MAXWEIGHT,PLATES,TOTALDISTANCE,KUZOVLENGTH,BORTLENGTH) VALUES(1, testName,20000,АБВГД123,100,40,80) [42122-200]
+2021-03-11 01:02:16 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:19:24 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:19:24 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Нарушение уникального индекса или первичного ключа: "PRIMARY KEY ON PUBLIC.BORT(ID) [1, 'testName', 20000, STRINGDECODE('\u0410\u0411\u0412\u0413\u0414123'), 100, 40, 80]"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.BORT(ID) [1, 'testName', 20000, STRINGDECODE('\u0410\u0411\u0412\u0413\u0414123'), 100, 40, 80]"; SQL statement:
+INSERT INTO BORT(ID,NAME,MAXWEIGHT,PLATES,TOTALDISTANCE,KUZOVLENGTH,BORTLENGTH) VALUES(1, 'testName',20000,'АБВГД123',100,40,80) [23505-200]
+2021-03-11 01:22:35 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:24:19 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:26:46 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:28:03 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:32:04 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:36:06 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:41:52 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:42:41 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:43:06 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:45:24 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:45:44 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:45:52 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:45:52 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Нарушение уникального индекса или первичного ключа: "PRIMARY KEY ON PUBLIC.TRANSPORT(ID) [1, 'testName', 20000, STRINGDECODE('\u0410\u0411\u0412\u0413\u0414123'), 100]"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.TRANSPORT(ID) [1, 'testName', 20000, STRINGDECODE('\u0410\u0411\u0412\u0413\u0414123'), 100]"; SQL statement:
+INSERT INTO TRANSPORT VALUES (1,'testName',20000,'АБВГД123',100) [23505-200]
+2021-03-11 01:47:29 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:49:12 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:49:12 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Нарушение уникального индекса или первичного ключа: "PRIMARY KEY ON PUBLIC.TRANSPORT(ID) [1, 'testName', 20000, STRINGDECODE('\u0410\u0411\u0412\u0413\u0414123'), 100]"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.TRANSPORT(ID) [1, 'testName', 20000, STRINGDECODE('\u0410\u0411\u0412\u0413\u0414123'), 100]"; SQL statement:
+INSERT INTO TRANSPORT VALUES (1,'testName',20000,'АБВГД123',100) [23505-200]
+2021-03-11 01:49:39 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:56:52 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:57:11 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 01:57:31 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 02:05:27 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 03:48:47 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 03:52:46 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 03:53:04 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 03:53:10 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 03:53:29 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 03:53:44 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 03:54:16 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:01:02 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:01:11 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:02:21 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:02:30 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:02:42 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:12:37 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:13:02 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:14:46 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:15:06 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:15:20 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:18:54 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:19:03 ERROR JdbcDataProvider:71 - Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+2021-03-11 04:19:03 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Нарушение уникального индекса или первичного ключа: "PRIMARY KEY ON PUBLIC.CARGO(ID) [1, 'testName', 4000, 'General']"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.CARGO(ID) [1, 'testName', 4000, 'General']"; SQL statement:
+INSERT INTO CARGO VALUES (1,'testName',4000,'General') [23505-200]
+2021-03-11 04:20:27 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:20:34 ERROR JdbcDataProvider:71 - Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+2021-03-11 04:20:34 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLIntegrityConstraintViolationException: Нарушение уникального индекса или первичного ключа: "PRIMARY KEY ON PUBLIC.CARGO(ID) [1, 'testName', 4000, 'General']"
+Unique index or primary key violation: "PRIMARY KEY ON PUBLIC.CARGO(ID) [1, 'testName', 4000, 'General']"; SQL statement:
+INSERT INTO CARGO VALUES (1,'testName',4000,'General') [23505-200]
+2021-03-11 04:21:04 ERROR JdbcDataProvider:71 - Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+2021-03-11 04:24:39 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:24:43 ERROR JdbcDataProvider:71 - Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+2021-03-11 04:24:51 ERROR JdbcDataProvider:71 - Недопустимое значение "3" для параметра "columnIndex"
+Invalid value "3" for parameter "columnIndex" [90008-200]
+2021-03-11 04:29:21 ERROR JdbcDataProvider:71 - Ошибка преобразования данных при конвертации "General"
+Data conversion error converting "General" [22018-200]
+2021-03-11 04:34:08 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:34:13 ERROR JdbcDataProvider:71 - Ошибка преобразования данных при конвертации "General"
+Data conversion error converting "General" [22018-200]
+2021-03-11 04:35:39 ERROR JdbcDataProvider:71 - Ошибка преобразования данных при конвертации "General"
+Data conversion error converting "General" [22018-200]
+2021-03-11 04:39:03 ERROR JdbcDataProvider:71 - Ошибка преобразования данных при конвертации "General"
+Data conversion error converting "General" [22018-200]
+2021-03-11 04:40:12 ERROR JdbcDataProvider:71 - Ошибка преобразования данных при конвертации "General"
+Data conversion error converting "General" [22018-200]
+2021-03-11 04:43:21 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:43:38 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:43:47 ERROR JdbcDataProvider:71 - org.h2.jdbc.JdbcSQLSyntaxErrorException: Синтаксическая ошибка в выражении SQL "JDBCCARGODELETE[*]"
+Syntax error in SQL statement "JDBCCARGODELETE[*]"; SQL statement:
+jdbcCargoDelete [42000-200]
+2021-03-11 04:45:30 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:54:25 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:54:31 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:54:50 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:55:06 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:55:29 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:57:27 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 04:57:36 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:03:15 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:03:27 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:05:50 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:05:58 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:06:06 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:08:37 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:08:48 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:09:48 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:10:07 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:10:13 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:13:28 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:14:17 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:16:50 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:17:01 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:17:36 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:17:43 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:19:38 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:19:51 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:20:06 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:20:34 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 05:20:44 ERROR JdbcDataProvider:71 - Нет данных
+No data is available [2000-200]
+2021-03-11 06:07:20 ERROR XmlDataProvider:71 - bort.xml (Не удается найти указанный файл)
+2021-03-11 06:10:42 ERROR XmlDataProvider:71 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.
+2021-03-11 08:03:45 ERROR XmlDataProvider:71 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.
+2021-03-11 08:11:40 ERROR XmlDataProvider:71 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.
+2021-03-11 08:19:24 ERROR XmlDataProvider:71 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.
+2021-03-11 08:21:51 ERROR XmlDataProvider:71 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.
+2021-03-11 11:36:09 ERROR XmlDataProvider:71 - bort.xml (Не удается найти указанный файл)
+2021-03-11 11:36:09 ERROR XmlDataProvider:71 - bort.xml (Не удается найти указанный файл)
+2021-03-11 14:01:37 ERROR XmlDataProvider:71 - platform.xml (Не удается найти указанный файл)
+2021-03-11 14:01:37 ERROR XmlDataProvider:71 - platform.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - container.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - openTransport.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - refrigerator.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - container.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - container.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - driver.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - driver.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - traffic.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - refrigerator.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - closedTransport.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - traffic.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - tent.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - closedTransport.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - closedTransport.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - transport.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - tent.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - tent.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - transport.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - transport.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - traffic.xml (Не удается найти указанный файл)
+2021-03-11 14:05:04 ERROR XmlDataProvider:71 - openTransport.xml (Не удается найти указанный файл)
+2021-03-11 14:05:05 ERROR XmlDataProvider:71 - refrigerator.xml (Не удается найти указанный файл)
+2021-03-11 14:05:05 ERROR XmlDataProvider:71 - openTransport.xml (Не удается найти указанный файл)
+2021-03-11 14:05:05 ERROR XmlDataProvider:71 - refrigerator.xml (Не удается найти указанный файл)
+2021-03-11 14:05:05 ERROR XmlDataProvider:71 - refrigerator.xml (Не удается найти указанный файл)
+2021-03-11 14:05:05 ERROR XmlDataProvider:71 - traffic.xml (Не удается найти указанный файл)
+2021-03-11 14:05:05 ERROR XmlDataProvider:71 - traffic.xml (Не удается найти указанный файл)
+2021-03-11 14:05:05 ERROR XmlDataProvider:71 - Value for @org.simpleframework.xml.Element(name="", type=void.class, data=false, required=true) on field 'trafficTransport' public java.util.Optional ru.sfedu.transportmanagementsystem.entities.Traffic.trafficTransport is null in class ru.sfedu.transportmanagementsystem.entities.Traffic
+2021-03-11 14:05:05 ERROR XmlDataProvider:71 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.
+2021-03-11 14:05:05 ERROR XmlDataProvider:71 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.
+2021-03-11 14:05:05 ERROR XmlDataProvider:71 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.
+2021-03-11 14:05:05 ERROR XmlDataProvider:71 - Value for @org.simpleframework.xml.Element(name="", type=void.class, data=false, required=true) on field 'trafficTransport' public java.util.Optional ru.sfedu.transportmanagementsystem.entities.Traffic.trafficTransport is null in class ru.sfedu.transportmanagementsystem.entities.Traffic
+2021-03-11 14:05:05 ERROR XmlDataProvider:71 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.
+2021-03-11 14:05:05 ERROR XmlDataProvider:71 - openTransport.xml (Не удается найти указанный файл)
+2021-03-11 14:05:05 ERROR XmlDataProvider:71 - openTransport.xml (Не удается найти указанный файл)
+2021-03-11 14:05:05 ERROR XmlDataProvider:71 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.
+2021-03-11 14:29:03 ERROR XmlDataProvider:71 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.
+2021-03-11 14:29:03 ERROR XmlDataProvider:71 - ParseError at [row,col]:[1,1]
+Message: Premature end of file.

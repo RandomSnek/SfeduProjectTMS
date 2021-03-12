@@ -1,0 +1,5 @@
+<XmlContainer>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="4000" name="testName" id="0">
+      <type>General</type>
+   </object>
+</XmlContainer>
