@@ -1,0 +1,4 @@
+<XmlContainer>
+   <object class="ru.sfedu.transportmanagementsystem.entities.ClosedTransport" id="1" name="testName" maxWeight="20000" plates="АБВГД123" totalDistance="100" kuzovVolume="400"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.ClosedTransport" id="0" name="testName" maxWeight="20000" plates="АБВГД123" totalDistance="100" kuzovVolume="400"/>
+</XmlContainer>

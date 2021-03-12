@@ -1,0 +1,5 @@
+<XmlContainer>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Tent" id="0" name="testName" maxWeight="20000" plates="АБВГД123" totalDistance="100" kuzovVolume="400">
+      <tentType>Soft</tentType>
+   </object>
+</XmlContainer>

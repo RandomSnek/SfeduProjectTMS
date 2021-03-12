@@ -1,0 +1,5 @@
+<XmlContainer>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Driver" fio="testName" passport="1234 56789" id="0">
+      <drivingGrade>D</drivingGrade>
+   </object>
+</XmlContainer>
