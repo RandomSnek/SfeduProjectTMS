@@ -1,5 +1,32 @@
 <XmlContainer>
-   <object class="ru.sfedu.transportmanagementsystem.entities.Tent" id="0" name="testName" maxWeight="20000" plates="АБВГД123" totalDistance="100" kuzovVolume="400">
+   <object class="ru.sfedu.transportmanagementsystem.entities.Tent" id="0" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <tentType>Soft</tentType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Tent" id="1" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <tentType>Soft</tentType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Tent" id="2" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <tentType>Soft</tentType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Tent" id="3" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <tentType>Soft</tentType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Tent" id="4" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <tentType>Soft</tentType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Tent" id="5" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <tentType>Soft</tentType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Tent" id="6" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <tentType>Soft</tentType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Tent" id="7" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <tentType>Soft</tentType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Tent" id="8" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <tentType>Soft</tentType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Tent" id="9" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
       <tentType>Soft</tentType>
    </object>
 </XmlContainer>

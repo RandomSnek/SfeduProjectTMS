@@ -32,10 +32,9 @@ public class Platform extends OpenTransport {
 
   @Override
   public String toString() {
-    return "Platform{" +
-            "id=" + id +
-            ", name='" + name + ", maxWeight=" + maxWeight + ", plates=" +plates + ", totalDistance=" + totalDistance + ", kuzovLength=" + kuzovLength + ", loadingHeight=" +loadingHeight + '\'' +
-            '}';
+    return "Транспорт типа платформа: " +
+            "ID=" + id +
+            ", Наименование='" + name + ", Макс. вес=" + maxWeight + ", Номер=" +plates + ", Пробег=" + totalDistance +", Длина кузова=" +kuzovLength + ", Погрузочная высота=" + loadingHeight + '\'';
   }
 
 }

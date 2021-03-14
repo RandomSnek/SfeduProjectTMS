@@ -31,10 +31,9 @@ public class OpenTransport extends Transport {
 
   @Override
   public String toString() {
-    return "Open Transport{" +
-            "id=" + id +
-            ", name='" + name + ", maxWeight=" + maxWeight + ", plates=" +plates + ", totalDistance=" + totalDistance +", kuzovLength=" +kuzovLength + '\'' +
-            '}';
+    return "Транспорт открытого типа: " +
+            "ID=" + id +
+            ", Наименование='" + name + ", Макс. вес=" + maxWeight + ", Номер=" +plates + ", Пробег=" + totalDistance +", Длина кузова=" +kuzovLength + '\'';
   }
 
 }

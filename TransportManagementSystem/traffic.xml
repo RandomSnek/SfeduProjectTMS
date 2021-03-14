@@ -1,0 +1,12 @@
+<XmlContainer>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Traffic" id="0" cargoId="1" transportId="1" driverId="1" distance="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Traffic" id="1" cargoId="1" transportId="1" driverId="1" distance="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Traffic" id="2" cargoId="1" transportId="1" driverId="1" distance="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Traffic" id="3" cargoId="1" transportId="1" driverId="1" distance="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Traffic" id="4" cargoId="1" transportId="1" driverId="1" distance="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Traffic" id="5" cargoId="1" transportId="1" driverId="1" distance="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Traffic" id="6" cargoId="1" transportId="1" driverId="1" distance="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Traffic" id="7" cargoId="1" transportId="1" driverId="1" distance="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Traffic" id="8" cargoId="1" transportId="1" driverId="1" distance="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Traffic" id="9" cargoId="1" transportId="1" driverId="1" distance="100"/>
+</XmlContainer>

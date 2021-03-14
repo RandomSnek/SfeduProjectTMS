@@ -1,3 +1,12 @@
 <XmlContainer>
-   <object class="ru.sfedu.transportmanagementsystem.entities.Bort" id="0" name="testName" maxWeight="20000" plates="АБВГД123" totalDistance="200" kuzovLength="40" bortLength="80"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Bort" id="0" name="test" maxWeight="10000" plates="test" totalDistance="1000" kuzovLength="100" bortLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Bort" id="1" name="test" maxWeight="10000" plates="test" totalDistance="1000" kuzovLength="100" bortLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Bort" id="2" name="test" maxWeight="10000" plates="test" totalDistance="1000" kuzovLength="100" bortLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Bort" id="3" name="test" maxWeight="10000" plates="test" totalDistance="1000" kuzovLength="100" bortLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Bort" id="4" name="test" maxWeight="10000" plates="test" totalDistance="1000" kuzovLength="100" bortLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Bort" id="5" name="test" maxWeight="10000" plates="test" totalDistance="1000" kuzovLength="100" bortLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Bort" id="6" name="test" maxWeight="10000" plates="test" totalDistance="1000" kuzovLength="100" bortLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Bort" id="7" name="test" maxWeight="10000" plates="test" totalDistance="1000" kuzovLength="100" bortLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Bort" id="8" name="test" maxWeight="10000" plates="test" totalDistance="1000" kuzovLength="100" bortLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Bort" id="9" name="test" maxWeight="10000" plates="test" totalDistance="1000" kuzovLength="100" bortLength="100"/>
 </XmlContainer>

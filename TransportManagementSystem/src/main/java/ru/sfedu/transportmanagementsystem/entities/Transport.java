@@ -72,10 +72,9 @@ public class Transport {
 
   @Override
   public String toString() {
-    return "Transport{" +
-            "id=" + id +
-            ", name='" + name + ", maxWeight=" + maxWeight + ", plates=" +plates + ", totalDistance" + totalDistance + '\'' +
-            '}';
+    return "Транспорт: " +
+            "ID=" + id +
+            ", Наименование='" + name + ", Макс. вес=" + maxWeight + ", Номер=" +plates + ", Пробег=" + totalDistance + '\'';
   }
 
 }

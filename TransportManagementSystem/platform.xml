@@ -1,4 +1,12 @@
 <XmlContainer>
-   <object class="ru.sfedu.transportmanagementsystem.entities.Platform" id="0" name="testName" maxWeight="20000" plates="АБВГД123" totalDistance="100" kuzovLength="40" loadingHeight="60"/>
-   <object class="ru.sfedu.transportmanagementsystem.entities.Platform" id="1" name="testName" maxWeight="20000" plates="АБВГД123" totalDistance="100" kuzovLength="40" loadingHeight="60"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Platform" id="0" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100" loadingHeight="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Platform" id="1" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100" loadingHeight="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Platform" id="2" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100" loadingHeight="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Platform" id="3" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100" loadingHeight="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Platform" id="4" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100" loadingHeight="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Platform" id="5" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100" loadingHeight="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Platform" id="6" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100" loadingHeight="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Platform" id="7" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100" loadingHeight="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Platform" id="8" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100" loadingHeight="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Platform" id="9" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100" loadingHeight="100"/>
 </XmlContainer>

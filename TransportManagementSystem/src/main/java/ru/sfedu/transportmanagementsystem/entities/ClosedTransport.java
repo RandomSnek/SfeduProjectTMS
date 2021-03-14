@@ -30,9 +30,8 @@ public class ClosedTransport extends Transport {
 
   @Override
   public String toString() {
-    return "Closed Transport{" +
-            "id=" + id +
-            ", name='" + name + ", maxWeight=" + maxWeight + ", plates=" +plates + ", totalDistance=" + totalDistance +", kuzovVolume=" +kuzovVolume + '\'' +
-            '}';
+    return "Транспорт закрытого типа: " +
+            "ID=" + id +
+            ", Наименование='" + name + ", Макс. вес=" + maxWeight + ", Номер=" +plates + ", Пробег=" + totalDistance +", Объём кузова=" +kuzovVolume + '\'';
   }
 }

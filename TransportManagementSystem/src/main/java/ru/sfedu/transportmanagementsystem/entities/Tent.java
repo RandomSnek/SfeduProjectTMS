@@ -34,10 +34,9 @@ public class Tent extends ClosedTransport {
 
   @Override
   public String toString() {
-    return "Tent{" +
-            "id=" + id +
-            ", name='" + name + ", maxWeight=" + maxWeight + ", plates=" +plates + ", totalDistance=" + totalDistance +", kuzovVolume="+ kuzovVolume + ", TentType=" +tentType + '\'' +
-            '}';
+    return "Транспорт типа тент: " +
+            "ID=" + id +
+            ", Наименование=" + name + ", Макс. вес=" + maxWeight + ", Номер=" +plates + ", Пробег=" + totalDistance +", Объём кузова=" +kuzovVolume + ", Вид тента=" +tentType + '\'';
   }
 
 }

@@ -32,10 +32,9 @@ public class Bort extends OpenTransport {
 
   @Override
   public String toString() {
-    return "Transport{" +
-            "id=" + id +
-            ", name='" + name + ", maxWeight=" + maxWeight + ", plates=" +plates + ", totalDistance=" + totalDistance +", kuzovLength=" +kuzovLength +", bortLength=" +bortLength + '\'' +
-            '}';
+    return "Транспорт бортового типа: " +
+            "ID=" + id +
+            ", Наименование='" + name + ", Макс. вес=" + maxWeight + ", Номер=" +plates + ", Пробег=" + totalDistance +", Длина кузова=" +kuzovLength +", Длина борта=" +bortLength + '\'';
   }
 
 }

@@ -1,5 +1,32 @@
 <XmlContainer>
-   <object class="ru.sfedu.transportmanagementsystem.entities.Container" id="0" name="testName" maxWeight="4000" plates="АБВГД123" totalDistance="150" kuzovVolume="600">
+   <object class="ru.sfedu.transportmanagementsystem.entities.Container" id="0" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <containerType>_20f</containerType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Container" id="1" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <containerType>_20f</containerType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Container" id="2" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <containerType>_20f</containerType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Container" id="3" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <containerType>_20f</containerType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Container" id="4" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <containerType>_20f</containerType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Container" id="5" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <containerType>_20f</containerType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Container" id="6" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <containerType>_20f</containerType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Container" id="7" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <containerType>_20f</containerType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Container" id="8" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100">
+      <containerType>_20f</containerType>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Container" id="9" name="test" maxWeight="10000" plates="test" totalDistance="1000" kuzovVolume="100">
       <containerType>_20f</containerType>
    </object>
 </XmlContainer>

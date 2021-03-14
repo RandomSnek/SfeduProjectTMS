@@ -73,7 +73,7 @@ public class CsvDataProvider implements IDataProvider {
      * Общие методы записи в файл и чтения файла update и readAll
      */
 
-    private <T> Result update(List<T> bean, String filePath, Boolean append) {
+    public <T> Result update(List<T> bean, String filePath, Boolean append) {
         try {
             CSVWriter writer = new CSVWriter(new FileWriter(getConfigurationEntry(filePath), append));
             StatefulBeanToCsv<T> beanToCsv = new StatefulBeanToCsvBuilder<T>(writer).withApplyQuotesToAll(false).build();

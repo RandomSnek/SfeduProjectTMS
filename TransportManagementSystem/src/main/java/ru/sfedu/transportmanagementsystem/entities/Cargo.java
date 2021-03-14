@@ -56,10 +56,9 @@ public class Cargo {
 
   @Override
   public String toString() {
-    return "Cargo{" +
-            "id=" + id +
-            ", name='" + name + ", weight=" + weight + ", type=" +type + '\'' +
-            '}';
+    return "Груз: " +
+            "ID=" + id +
+            ", Наименование='" + name + ", Вес=" + weight + ", Тип груза=" +type + '\'' ;
   }
 
 

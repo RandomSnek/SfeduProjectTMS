@@ -1,5 +1,32 @@
 <XmlContainer>
-   <object class="ru.sfedu.transportmanagementsystem.entities.Driver" fio="testName" passport="1234 56789" id="0">
-      <drivingGrade>D</drivingGrade>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Driver" fio="test" passport="test" id="0">
+      <drivingGrade>C</drivingGrade>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Driver" fio="test" passport="test" id="1">
+      <drivingGrade>C</drivingGrade>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Driver" fio="test" passport="test" id="2">
+      <drivingGrade>C</drivingGrade>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Driver" fio="test" passport="test" id="3">
+      <drivingGrade>C</drivingGrade>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Driver" fio="test" passport="test" id="4">
+      <drivingGrade>C</drivingGrade>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Driver" fio="test" passport="test" id="5">
+      <drivingGrade>C</drivingGrade>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Driver" fio="test" passport="test" id="6">
+      <drivingGrade>C</drivingGrade>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Driver" fio="test" passport="test" id="7">
+      <drivingGrade>C</drivingGrade>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Driver" fio="test" passport="test" id="8">
+      <drivingGrade>C</drivingGrade>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Driver" fio="test" passport="test" id="9">
+      <drivingGrade>C</drivingGrade>
    </object>
 </XmlContainer>

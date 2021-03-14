@@ -1,4 +1,12 @@
 <XmlContainer>
-   <object class="ru.sfedu.transportmanagementsystem.entities.ClosedTransport" id="1" name="testName" maxWeight="20000" plates="АБВГД123" totalDistance="100" kuzovVolume="400"/>
-   <object class="ru.sfedu.transportmanagementsystem.entities.ClosedTransport" id="0" name="testName" maxWeight="20000" plates="АБВГД123" totalDistance="100" kuzovVolume="400"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.ClosedTransport" id="0" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.ClosedTransport" id="1" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.ClosedTransport" id="2" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.ClosedTransport" id="3" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.ClosedTransport" id="4" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.ClosedTransport" id="5" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.ClosedTransport" id="6" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.ClosedTransport" id="7" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.ClosedTransport" id="8" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.ClosedTransport" id="9" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100"/>
 </XmlContainer>

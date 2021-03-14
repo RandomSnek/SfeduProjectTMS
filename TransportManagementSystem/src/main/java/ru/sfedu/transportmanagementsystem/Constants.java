@@ -81,4 +81,8 @@ public final class Constants {
     public static final String JDBC_PASS = "dbPass";
 
     public static final String INPUT_ERROR = "Недопустимый ввод ";
+    public static final String UPD_BEFORE_SENDOFF_ERROR =  "Недопустимый параметр updSendOff в файле properties (принимает только значения true и false)";
+    public static final String INPUT_SPLIT = "\\W+";
+    public static final String PARSE_ERROR ="Неправильное кол-во аргументов";
+    public static final String UPD_BEFORE_SENDOFF ="updSendOff";
 }

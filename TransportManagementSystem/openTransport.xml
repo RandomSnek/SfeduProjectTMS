@@ -1,4 +1,12 @@
 <XmlContainer>
-   <object class="ru.sfedu.transportmanagementsystem.entities.OpenTransport" id="0" name="testName" maxWeight="20000" plates="АБВГД123" totalDistance="100" kuzovLength="40"/>
-   <object class="ru.sfedu.transportmanagementsystem.entities.OpenTransport" id="1" name="testName" maxWeight="20000" plates="АБВГД123" totalDistance="100" kuzovLength="40"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.OpenTransport" id="0" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.OpenTransport" id="1" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.OpenTransport" id="2" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.OpenTransport" id="3" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.OpenTransport" id="4" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.OpenTransport" id="5" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.OpenTransport" id="6" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.OpenTransport" id="7" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.OpenTransport" id="8" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100"/>
+   <object class="ru.sfedu.transportmanagementsystem.entities.OpenTransport" id="9" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovLength="100"/>
 </XmlContainer>

@@ -1,5 +1,32 @@
 <XmlContainer>
-   <object class="ru.sfedu.transportmanagementsystem.entities.Refrigerator" id="0" name="testName" maxWeight="4000" plates="АБВГД123" totalDistance="150" kuzovVolume="600" temperature="-20">
+   <object class="ru.sfedu.transportmanagementsystem.entities.Refrigerator" id="0" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100" temperature="-10">
+      <fridgeClass>A</fridgeClass>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Refrigerator" id="1" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100" temperature="-10">
+      <fridgeClass>A</fridgeClass>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Refrigerator" id="2" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100" temperature="-10">
+      <fridgeClass>A</fridgeClass>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Refrigerator" id="3" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100" temperature="-10">
+      <fridgeClass>A</fridgeClass>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Refrigerator" id="4" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100" temperature="-10">
+      <fridgeClass>A</fridgeClass>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Refrigerator" id="5" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100" temperature="-10">
+      <fridgeClass>A</fridgeClass>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Refrigerator" id="6" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100" temperature="-10">
+      <fridgeClass>A</fridgeClass>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Refrigerator" id="7" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100" temperature="-10">
+      <fridgeClass>A</fridgeClass>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Refrigerator" id="8" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100" temperature="-10">
+      <fridgeClass>A</fridgeClass>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Refrigerator" id="9" name="test" maxWeight="10000" plates="test" totalDistance="100" kuzovVolume="100" temperature="-20">
       <fridgeClass>A</fridgeClass>
    </object>
 </XmlContainer>

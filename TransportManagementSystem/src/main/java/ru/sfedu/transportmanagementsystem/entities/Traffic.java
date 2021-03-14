@@ -26,11 +26,8 @@ public class Traffic  {
   @Attribute
   @CsvBindByPosition(position = 4)
   public int distance;
-  @Element
   public Optional<Transport> trafficTransport;
-  @Element
   public Optional<Driver> trafficDriver;
-  @Element
   public Optional<Cargo> trafficCargo;
 
   public Traffic () {}
@@ -41,6 +38,8 @@ public class Traffic  {
     setDriverId(driverId);
     setDistance(distance);
   }
+
+
   public Traffic (int id, int cargoId, int transportId, int driverId, int distance, Transport trafficTransport, Driver trafficDriver, Cargo trafficCargo){
     setId(id);
     setCargoId(cargoId);
@@ -102,10 +101,9 @@ public class Traffic  {
 
   @Override
   public String toString() {
-    return "Traffic{" +
-            "id=" + id +
-            ", cargoId='" + cargoId + ", transportId=" + transportId + ", driverId=" +driverId + ", Distance" + distance + '\'' +
-            '}';
+    return  "Рейс: " +
+            "ID=" + id +
+            ", ID груза='" + cargoId + ", ID транспорта=" + transportId + ", ID водителя=" +driverId + ", Расстояние рейса=" + distance + '\'';
   }
 
 }

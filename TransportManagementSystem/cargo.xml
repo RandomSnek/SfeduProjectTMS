@@ -1,5 +1,32 @@
 <XmlContainer>
-   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="4000" name="testName" id="0">
-      <type>General</type>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="100" name="test" id="0">
+      <type>GENERAL</type>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="100" name="test" id="1">
+      <type>GENERAL</type>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="100" name="test" id="2">
+      <type>GENERAL</type>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="100" name="test" id="3">
+      <type>GENERAL</type>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="100" name="test" id="4">
+      <type>GENERAL</type>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="100" name="test" id="5">
+      <type>GENERAL</type>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="100" name="test" id="6">
+      <type>GENERAL</type>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="100" name="test" id="7">
+      <type>GENERAL</type>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="100" name="test" id="8">
+      <type>GENERAL</type>
+   </object>
+   <object class="ru.sfedu.transportmanagementsystem.entities.Cargo" weight="100" name="test" id="9">
+      <type>GENERAL</type>
    </object>
 </XmlContainer>

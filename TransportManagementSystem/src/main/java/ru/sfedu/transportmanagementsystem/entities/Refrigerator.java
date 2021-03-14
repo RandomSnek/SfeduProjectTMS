@@ -46,9 +46,8 @@ public class Refrigerator extends ClosedTransport {
 
   @Override
   public String toString() {
-    return "Refrigerator{" +
-            "id=" + id +
-            ", name='" + name + ", maxWeight=" + maxWeight + ", plates=" +plates + ", totalDistance=" + totalDistance +", kuzovVolume=" + kuzovVolume +   ", fridgeClass=" +fridgeClass +", temperature=" +temperature + '\'' +
-            '}';
+    return "Транспорт типа рефрижератор: " +
+            "ID=" + id +
+            ", Наименование='" + name + ", Макс. вес=" + maxWeight + ", Номер=" +plates + ", Пробег=" + totalDistance +", Объём кузова=" +kuzovVolume + ", Температура=" + temperature +", Класс холодильника=" + fridgeClass + '\'';
   }
 }

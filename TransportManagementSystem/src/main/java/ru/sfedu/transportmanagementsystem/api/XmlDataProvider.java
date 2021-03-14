@@ -36,9 +36,9 @@ public class XmlDataProvider implements IDataProvider {
      * Общие методы записи в файл и чтения файла update и readAll
      */
 
-    public <T> Result update(List<T> object, String filePath, Boolean append) {
+    public <T> Result update(List<T> object, String filePath) {
         try {
-            FileWriter fileWriter = new FileWriter(getConfigurationEntry(filePath), append);
+            FileWriter fileWriter = new FileWriter(getConfigurationEntry(filePath), false);
             Serializer serializer;
             serializer = new Persister();
             XmlContainer<T> container = new XmlContainer(object);
@@ -75,7 +75,7 @@ public class XmlDataProvider implements IDataProvider {
         } else {
             List<Transport> list = readAll(Transport.class,TRANSPORT_XML_KEY);
             list.add(transport);
-            return update(list, TRANSPORT_XML_KEY, true);
+            return update(list, TRANSPORT_XML_KEY);
         }
     }
 
@@ -85,7 +85,7 @@ public class XmlDataProvider implements IDataProvider {
             List<Transport> allElements = readAll(Transport.class, TRANSPORT_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(transport.getId())));
             allElements.add(transport.getId(), transport);
-            return update(allElements, TRANSPORT_XML_KEY, false);
+            return update(allElements, TRANSPORT_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -94,7 +94,7 @@ public class XmlDataProvider implements IDataProvider {
         if (getTransportById(id).isPresent()) {
             List<Transport> allElements = readAll(Transport.class, TRANSPORT_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(id)));
-            return update(allElements, TRANSPORT_XML_KEY, false);
+            return update(allElements, TRANSPORT_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -115,7 +115,7 @@ public class XmlDataProvider implements IDataProvider {
         } else {
             List<Bort> list = readAll(Bort.class, BORT_XML_KEY);
             list.add(bort);
-            return update(list, BORT_XML_KEY, true);
+            return update(list, BORT_XML_KEY);
         }
     }
 
@@ -130,7 +130,7 @@ public class XmlDataProvider implements IDataProvider {
             List<Bort> allElements = readAll(Bort.class, BORT_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(bort.getId())));
             allElements.add(bort.getId(), bort);
-            return update(allElements, BORT_XML_KEY, false);
+            return update(allElements, BORT_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -139,7 +139,7 @@ public class XmlDataProvider implements IDataProvider {
         if (getBortById(id).isPresent()) {
             List<Bort> allElements = readAll(Bort.class, BORT_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(id)));
-            return update(allElements, BORT_XML_KEY, false);
+            return update(allElements, BORT_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -154,7 +154,7 @@ public class XmlDataProvider implements IDataProvider {
         } else {
             List<ClosedTransport> list = readAll(ClosedTransport.class, CLOSED_TRANSPORT_XML_KEY);
             list.add(closedTransport);
-            return update(list, CLOSED_TRANSPORT_XML_KEY, true);
+            return update(list, CLOSED_TRANSPORT_XML_KEY);
         }
     }
 
@@ -169,7 +169,7 @@ public class XmlDataProvider implements IDataProvider {
             List<ClosedTransport> allElements = readAll(ClosedTransport.class, CLOSED_TRANSPORT_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(closedTransport.getId())));
             allElements.add(closedTransport.getId(), closedTransport);
-            return update(allElements, CLOSED_TRANSPORT_XML_KEY, false);
+            return update(allElements, CLOSED_TRANSPORT_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -178,7 +178,7 @@ public class XmlDataProvider implements IDataProvider {
         if (getClosedTransportById(id).isPresent()) {
             List<ClosedTransport> allElements = readAll(ClosedTransport.class, CLOSED_TRANSPORT_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(id)));
-            return update(allElements, CLOSED_TRANSPORT_XML_KEY, false);
+            return update(allElements, CLOSED_TRANSPORT_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -193,7 +193,7 @@ public class XmlDataProvider implements IDataProvider {
         } else {
             List<Container> list = readAll(Container.class, CONTAINER_XML_KEY);
             list.add(container);
-            return update(list, CONTAINER_XML_KEY, true);
+            return update(list, CONTAINER_XML_KEY);
         }
     }
 
@@ -208,7 +208,7 @@ public class XmlDataProvider implements IDataProvider {
             List<Container> allElements = readAll(Container.class, CONTAINER_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(container.getId())));
             allElements.add(container.getId(), container);
-            return update(allElements, CONTAINER_XML_KEY, false);
+            return update(allElements, CONTAINER_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -217,7 +217,7 @@ public class XmlDataProvider implements IDataProvider {
         if (getContainerById(id).isPresent()) {
             List<Container> allElements = readAll(Container.class, CONTAINER_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(id)));
-            return update(allElements, CONTAINER_XML_KEY, false);
+            return update(allElements, CONTAINER_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -232,7 +232,7 @@ public class XmlDataProvider implements IDataProvider {
         } else {
             List<OpenTransport> list = readAll(OpenTransport.class, OPEN_TRANSPORT_XML_KEY);
             list.add(openTransport);
-            return update(list, OPEN_TRANSPORT_XML_KEY, true);
+            return update(list, OPEN_TRANSPORT_XML_KEY);
         }
     }
 
@@ -247,7 +247,7 @@ public class XmlDataProvider implements IDataProvider {
             List<OpenTransport> allElements = readAll(OpenTransport.class, OPEN_TRANSPORT_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(openTransport.getId())));
             allElements.add(openTransport.getId(), openTransport);
-            return update(allElements, OPEN_TRANSPORT_XML_KEY, false);
+            return update(allElements, OPEN_TRANSPORT_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -256,7 +256,7 @@ public class XmlDataProvider implements IDataProvider {
         if (getOpenTransportById(id).isPresent()) {
             List<OpenTransport> allElements = readAll(OpenTransport.class, OPEN_TRANSPORT_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(id)));
-            return update(allElements, OPEN_TRANSPORT_XML_KEY, false);
+            return update(allElements, OPEN_TRANSPORT_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -271,7 +271,7 @@ public class XmlDataProvider implements IDataProvider {
         } else {
             List<Platform> list = readAll(Platform.class, PLATFORM_XML_KEY);
             list.add(platform);
-            return update(list, PLATFORM_XML_KEY, true);
+            return update(list, PLATFORM_XML_KEY);
         }
     }
 
@@ -286,7 +286,7 @@ public class XmlDataProvider implements IDataProvider {
             List<Platform> allElements = readAll(Platform.class, PLATFORM_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(platform.getId())));
             allElements.add(platform.getId(), platform);
-            return update(allElements, PLATFORM_XML_KEY, false);
+            return update(allElements, PLATFORM_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -295,7 +295,7 @@ public class XmlDataProvider implements IDataProvider {
         if (getPlatformById(id).isPresent()) {
             List<Platform> allElements = readAll(Platform.class, PLATFORM_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(id)));
-            return update(allElements, PLATFORM_XML_KEY, false);
+            return update(allElements, PLATFORM_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -310,7 +310,7 @@ public class XmlDataProvider implements IDataProvider {
         } else {
             List<Refrigerator> list = readAll(Refrigerator.class, REFRIGERATOR_XML_KEY);
             list.add(refrigerator);
-            return update(list, REFRIGERATOR_XML_KEY, true);
+            return update(list, REFRIGERATOR_XML_KEY);
         }
     }
 
@@ -325,7 +325,7 @@ public class XmlDataProvider implements IDataProvider {
             List<Refrigerator> allElements = readAll(Refrigerator.class, REFRIGERATOR_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(refrigerator.getId())));
             allElements.add(refrigerator.getId(), refrigerator);
-            return update(allElements, REFRIGERATOR_XML_KEY, false);
+            return update(allElements, REFRIGERATOR_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -334,7 +334,7 @@ public class XmlDataProvider implements IDataProvider {
         if (getRefrigeratorById(id).isPresent()) {
             List<Refrigerator> allElements = readAll(Refrigerator.class, REFRIGERATOR_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(id)));
-            return update(allElements, REFRIGERATOR_XML_KEY, false);
+            return update(allElements, REFRIGERATOR_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -349,7 +349,7 @@ public class XmlDataProvider implements IDataProvider {
         } else {
             List<Tent> list = readAll(Tent.class, TENT_XML_KEY);
             list.add(tent);
-            return update(list, TENT_XML_KEY, true);
+            return update(list, TENT_XML_KEY);
         }
     }
 
@@ -364,7 +364,7 @@ public class XmlDataProvider implements IDataProvider {
             List<Tent> allElements = readAll(Tent.class, TENT_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(tent.getId())));
             allElements.add(tent.getId(), tent);
-            return update(allElements, TENT_XML_KEY, false);
+            return update(allElements, TENT_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -373,7 +373,7 @@ public class XmlDataProvider implements IDataProvider {
         if (getTentById(id).isPresent()) {
             List<Tent> allElements = readAll(Tent.class, TENT_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(id)));
-            return update(allElements, TENT_XML_KEY, false);
+            return update(allElements, TENT_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -388,7 +388,7 @@ public class XmlDataProvider implements IDataProvider {
         } else {
             List<Cargo> list = readAll(Cargo.class, CARGO_XML_KEY);
             list.add(cargo);
-            return update(list, CARGO_XML_KEY, true);
+            return update(list, CARGO_XML_KEY);
         }
     }
 
@@ -403,7 +403,7 @@ public class XmlDataProvider implements IDataProvider {
             List<Cargo> allElements = readAll(Cargo.class, CARGO_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(cargo.getId())));
             allElements.add(cargo.getId(), cargo);
-            return update(allElements, CARGO_XML_KEY, false);
+            return update(allElements, CARGO_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -412,7 +412,7 @@ public class XmlDataProvider implements IDataProvider {
         if (getCargoById(id).isPresent()) {
             List<Cargo> allElements = readAll(Cargo.class, CARGO_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(id)));
-            return update(allElements, CARGO_XML_KEY, false);
+            return update(allElements, CARGO_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -427,7 +427,7 @@ public class XmlDataProvider implements IDataProvider {
         } else {
             List<Driver> list = readAll(Driver.class, DRIVER_XML_KEY);
             list.add(driver);
-            return update(list, DRIVER_XML_KEY, true);
+            return update(list, DRIVER_XML_KEY);
         }
     }
 
@@ -442,7 +442,7 @@ public class XmlDataProvider implements IDataProvider {
             List<Driver> allElements = readAll(Driver.class, DRIVER_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(driver.getId())));
             allElements.add(driver.getId(), driver);
-            return update(allElements, DRIVER_XML_KEY, false);
+            return update(allElements, DRIVER_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -451,7 +451,7 @@ public class XmlDataProvider implements IDataProvider {
         if (getDriverById(id).isPresent()) {
             List<Driver> allElements = readAll(Driver.class, DRIVER_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(id)));
-            return update(allElements, DRIVER_XML_KEY, false);
+            return update(allElements, DRIVER_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -466,7 +466,7 @@ public class XmlDataProvider implements IDataProvider {
         } else {
             List<Traffic> list = readAll(Traffic.class, TRAFFIC_XML_KEY);
             list.add(traffic);
-            return update(list, TRAFFIC_XML_KEY, true);
+            return update(list, TRAFFIC_XML_KEY);
         }
     }
 
@@ -481,7 +481,7 @@ public class XmlDataProvider implements IDataProvider {
             List<Traffic> allElements = readAll(Traffic.class, TRAFFIC_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(traffic.getId())));
             allElements.add(traffic.getId(), traffic);
-            return update(allElements, TRAFFIC_XML_KEY, false);
+            return update(allElements, TRAFFIC_XML_KEY);
         } else return Result.UNSUCCESSFUL;
     }
 
@@ -490,7 +490,7 @@ public class XmlDataProvider implements IDataProvider {
         if (getTrafficById(id).isPresent()) {
             List<Traffic> allElements = readAll(Traffic.class, TRAFFIC_XML_KEY);
             allElements.removeIf(t -> t.equals(allElements.get(id)));
-            return update(allElements, TRAFFIC_XML_KEY, false);
+            return update(allElements, TRAFFIC_XML_KEY);
         } else return Result.UNSUCCESSFUL;
 
     }

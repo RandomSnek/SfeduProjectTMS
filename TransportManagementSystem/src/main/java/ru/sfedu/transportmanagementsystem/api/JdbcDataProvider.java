@@ -16,7 +16,7 @@ import static ru.sfedu.transportmanagementsystem.utils.ConfigUtil.getConfigurati
 public class JdbcDataProvider implements IDataProvider {
     private static final Logger log = LogManager.getLogger(JdbcDataProvider.class);
 
-    private Result update(String sql) {
+    public Result update(String sql) {
         try {
             Statement statement = initialize().createStatement();
             statement.executeUpdate(sql);
@@ -28,7 +28,7 @@ public class JdbcDataProvider implements IDataProvider {
         }
     }
 
-    private ResultSet select(String sql) {
+    public ResultSet select(String sql) {
         try {
             PreparedStatement preparedStatement = initialize().prepareStatement(sql);
             ResultSet resultSet = preparedStatement.executeQuery();
